@@ -1,9 +1,9 @@
 import fiftyone as fo
 
 def load_datasets():
-    real_dataset_1 = fo.load_dataset('DIMS_REAL_ICMU_BODYKEYPOINT2D_002')
-    real_dataset_2 = fo.load_dataset('DIMS_REAL_ICMU_SEATBELT_001')
-    syn_dataset = fo.load_dataset('DIMS_SYN_ICMU_OBDBKPAGEOCL_000')
+    real_dataset_1 = fo.load_dataset('REAL_DATASET_001')
+    real_dataset_2 = fo.load_dataset('REAL_DATASET_002')
+    syn_dataset = fo.load_dataset('SYN_DATASET_001')
     return real_dataset_1, real_dataset_2, syn_dataset
 
 def merge_datasets(real_dataset_1, real_dataset_2):
