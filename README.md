@@ -54,9 +54,9 @@ This repository provides a comprehensive analysis of real and synthetic image da
 ### Visualization of Real and Synthetic Data Features
 
 **Datasets**:
-- DIMS_REAL_ICMU_BODYKEYPOINT2D_002 (4,591 samples)
-- DIMS_REAL_ICMU_SEATBELT_001 (19,684 samples)
-- DIMS_SYN_ICMU_OBDBKPAGEOCL_000 (327,600 samples)
+- REAL_DATASET_001 (4,591 samples)
+- REAL_DATASET_002 (19,684 samples)
+- SYN_DATASET_001 (327,600 samples)
 - Added "dataset_type" tag to each dataset.
 - Merged the two datasets for unified management.
 
