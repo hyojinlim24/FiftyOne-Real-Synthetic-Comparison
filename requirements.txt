@@ -1,0 +1,7 @@
+fiftyone
+torch
+torchvision
+numpy
+pillow
+scipy
+matplotlib
